@@ -1,0 +1,9 @@
+/* Set styles by default */
+@import url('./default.css');
+/* Styles.css */
+@import url('./typography.css');
+
+/* Base Body Styles*/
+body {
+  font-family: 'MuseoSansCyrl', sans-serif;
+}
