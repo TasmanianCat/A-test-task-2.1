@@ -16,208 +16,19 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
   width: 100%;
-  padding: 2.5rem 3.5rem;
+  padding: 22px 40px;
 }
 /* Body sections wrapper start */
 .body-sections-wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-  grid-gap: 4rem;
-  gap: 4rem;
   width: 100%;
-  max-width: 77rem;
-  padding: 0 1rem;
-  overflow: hidden;
-}
-.body-sections-wrapper > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-
-/* Header start */
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  min-height: 19.125rem;
-  background-color: #93bbea;
-  border-radius: 40px;
-  overflow: hidden;
-}
-
-.header-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 100%;
-  width: 100%;
 }
-
-.header-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-  width: 22%;
-  position: relative;
-}
-
-.header-img-1,
-.header-img-2 {
-  position: absolute;
-  display: block;
-  width: 100%;
-}
-
-.header-img-1 {
-  left: 0;
-  margin-top: -2.3rem;
-}
-
-.header-img-2 {
-  right: 0.35rem;
-  bottom: 0.275rem;
-  -webkit-transform: scale(1.055);
-          transform: scale(1.055);
-}
-
-.header-hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  gap: 2rem;
-  margin-top: 2.5rem;
-}
-
-.header-hero-text {
-  display: block;
-  text-align: center;
-}
-
-.hero-title {
-  font-family: 'Museo Sans Cyrl 900';
-  font-size: 3.75rem;
-  font-weight: 700;
-  line-height: 72px;
-  color: #ffffff;
-  margin-bottom: 0.3rem;
-  margin-left: 1px;
-}
-
-.hero-subtitle {
-  font-family: 'Museo Sans Cyrl 500';
-  font-size: 17px;
-  line-height: 23.8px;
-  color: #ffffff;
-  max-width: 50ch;
-  margin-left: 3px;
-}
-
-.header-cta-buttons-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 0.5rem;
-  width: 100%;
-  margin-top: 0.3875rem;
-  padding: 0.06rem 0;
-}
-
-.header-cta-buttons-1,
-.header-cta-buttons-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 0.5rem;
-  width: 100%;
-}
-
-.header-cta-buttons-1 {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.header-cta-buttons-2 {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.cta-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: rgba(255, 255, 255, 1);
-  gap: 0.55rem;
-  width: 100%;
-  max-width: 10rem;
-  height: 100%;
-  min-height: 3rem;
-  border-radius: 12px;
-}
-
-.cta-btn-icon-phone {
-  margin-top: -2px;
-}
-
-.cta-btn-icon-mail {
-  margin-left: 2px;
-}
-
-.cta-btn-text {
-  font-family: 'Museo Sans Cyrl 700';
-  font-size: 15px;
-  line-height: 18px;
-  color: #1a1a1a;
-}
-/* Header end */
 
 /* Main start */
-.main {
+/* Article */
+.main-article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,522 +36,181 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main-socials-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 100%;
-  margin-top: 1.1rem;
 }
 
-.socials-wrapper {
+.article-title-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 1rem;
-  height: 100%;
-  min-height: 10.375rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 100%;
-  max-width: 62.25rem;
-  background-color: #ffffff;
-  padding: 2.5rem;
-  border-radius: 40px;
-  -webkit-box-shadow: 0px 20px 60px rgba(26, 26, 26, 0.05);
-          box-shadow: 0px 20px 60px rgba(26, 26, 26, 0.05);
+  gap: 0.75rem;
+  margin-top: 1px;
 }
 
-.container-item-text:first-child {
-  padding-bottom: 1rem;
-}
-
-.socials-subtitle {
-  font-family: 'Museo Sans Cyrl 700';
-  font-size: 15px;
-  line-height: 18px;
-  color: #1a1a1a;
-}
-
-.socials-title,
-.faq-title,
-.referral-materials-title {
-  font-family: 'Museo Sans Cyrl 700';
-  font-size: 2.5rem;
-  line-height: 48px;
-  color: rgb(26, 26, 26);
-}
-
-.referral-materials-title {
-  margin-left: -0.7rem;
-}
-
-.social-icons-wrapper {
+.article-title,
+.article-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  gap: 0.875rem;
-}
-
-.social-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: rgba(249, 249, 249, 1);
-  border-radius: 13.33px;
-  cursor: pointer;
-}
-
-.social-icon-vk-modified {
-  margin-left: -2px;
-}
-
-.social-icon-twitter-modified {
-  margin-top: 2px;
-}
-
-.main-faq-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin: 5rem 0 3rem 0;
-}
-
-/* Carousel */
-.faq-container-carousel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  margin: 2rem 0;
-  max-width: 75rem;
-}
-
-.carousel-items-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  position: relative;
-}
-
-.carousel-items-wrapper {
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
-}
-
-.carousel-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  min-width: 17.625rem;
-  height: 100%;
-  min-height: 10rem;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 16px;
-  -webkit-box-shadow: 0px 0px 1.1rem 0px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 0px 1.1rem 0px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-  margin-right: 1.5rem;
-}
-
-.carousel-item-text {
-  display: block;
-  padding: 1rem;
-}
-
-.carousel-item-text--modified {
-  max-width: 60%;
-}
-
-.faq-subtitle,
-.referral-materials-subtitle {
-  font-family: 'Museo Sans Cyrl 700';
-  font-size: 20px;
-  color: rgba(26, 26, 26, 1);
-  line-height: 24px;
-}
-
-.faq-paragraph {
-  font-family: 'Museo Sans Cyrl 500';
-  font-size: 0.9375rem;
-  line-height: 21px;
-  color: rgba(148, 148, 148, 1);
-  padding-top: 0.6rem;
-}
-
-.carousel-item-image {
-  position: relative;
-}
-
-.item-img-positioning {
-  position: absolute;
-  top: 0.2rem;
-  right: -0.2rem;
-}
-
-/* Carousel buttons */
-.carousel-buttons-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: absolute;
-  width: 100%;
-  max-width: 75rem;
-}
-
-.carousel-btn-left,
-.carousel-btn-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  width: 2.75rem;
-  height: 2.75rem;
-  aspect-ratio: 1 / 1;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.09);
-          box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.09);
-  cursor: pointer;
-}
-
-.carousel-btn-left {
-  display: none;
-}
-
-.carousel-btn-left.show-left-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-.carousel-btn-right {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-left: auto;
+.title {
+  font-family: 'Museo Sans Cyrl 900';
+  font-size: 24px;
+  color: rgba(26, 26, 26, 1);
+  line-height: 28.8px;
 }
 
-.btn-icon-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.arrow-icon-right,
-.arrow-icon-left {
+.share-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.article-body {
+  padding: 1rem 0 2rem 0;
   width: 100%;
-  max-width: 7px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  max-width: 690px;
 }
 
-.arrow-icon-left {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-/* Referral materials */
-.main-referral-materials-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-}
-.referral-materials-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 0.75rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  margin-top: 2rem;
-}
-
-.referral-materials-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  max-width: 62.25rem;
-  background: rgba(255, 255, 255, 1);
-  padding: 1.25rem 1.5rem;
-  border-radius: 16px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-}
-
-.referral-materials-item-text {
-  width: 95%;
-}
-
-.referral-materials-paragraph {
+.article-body-paragraph {
   font-family: 'Museo Sans Cyrl 500';
-  font-size: 13px;
-  color: rgba(148, 148, 148, 1);
-  line-height: 18.2px;
-  max-width: 50ch;
-  padding-top: 0.25rem;
+  font-size: 15px;
+  line-height: 21px;
+  color: rgba(26, 26, 26, 1);
 }
 
-.referral-materials-item-icon {
+/* Contact details */
+.article-contact-details {
+  padding-top: 0.45rem;
+}
+
+.article-contact-title {
+  font-family: 'Museo Sans Cyrl 700';
+  font-size: 13px;
+  color: rgba(26, 26, 26, 1);
+  line-height: 15.6px;
+}
+
+.article-contact-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 5%;
+  padding-top: 1rem;
+  gap: 0.5rem;
+}
+
+.btn-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+  width: 224px;
+  height: 48px;
+  padding: 15px 57px 15px 56px;
+  background: rgba(54, 186, 95, 1);
+  border-radius: 12px;
+}
+
+.btn-chat-icon {
+  display: inline-block;
+}
+
+.btn-chat-text {
+  display: inline-block;
+  font-family: 'Museo Sans Cyrl 700';
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.btn-phone,
+.btn-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(249, 249, 249, 1);
+  height: 48px;
+  width: 48px;
+  border-radius: 12px;
 }
 /* Main end */
 
-/* Body sections wrapper start */
-/* Body container end */
-
 /* Mobile version */
-/* Screen width: 1366px*/
-@media (max-width: 85.375em) {
+/* Screen width: 690px*/
+@media (max-width: 43.125em) {
   .body-container {
-    padding: 2.5rem;
+    padding: 20px;
   }
-  .body-sections-wrapper {
-    padding: 0 0.5rem;
+  .main-article {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .main-faq-container {
-    margin: 5rem 0 2.5rem 0;
+  .article-title-wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .faq-container-carousel {
-    max-width: 57rem;
-    padding: 0.25rem;
-    overflow: hidden;
+  .article-body {
+    padding: 0.75rem 0 1.5rem 0;
+    max-width: auto;
   }
-  .carousel-buttons-wrapper {
-    max-width: 57rem;
-    padding: 0 0.25rem;
+  .article-body-paragraph {
+    font-size: 1rem;
   }
-  .carousel-btn-right {
-    margin-right: 0.7rem;
+  .article-body-paragraph:not(:last-child) {
+    padding-bottom: 0.75rem;
   }
-}
-
-/* Screen width: 1280px*/
-@media (max-width: 80em) {
-  .body-container {
-    padding: 2rem;
-  }
-  .body-sections-wrapper {
-    padding: 0;
-    overflow: visible;
-  }
-  .header-image {
-    width: 21%;
-  }
-}
-
-/* Screen width: 1200px*/
-@media (max-width: 75em) {
-  .body-container {
-    padding: 1.75rem;
-  }
-  .header-image {
-    width: 20%;
-  }
-  /* Typography */
-  .hero-title {
-    font-size: 3.7rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 2.45rem;
-  }
-  .faq-container-carousel {
-    max-width: 56.5rem;
-    overflow: hidden;
-  }
-  .carousel-buttons-wrapper {
-    max-width: 56.5rem;
-    padding: 0 0.2rem;
-  }
-  .carousel-btn-right {
-    margin-right: 0.15rem;
-  }
-}
-
-/* Screen width: 1160px*/
-@media (max-width: 72.5em) {
-  .body-container {
-    padding: 1.5rem;
-  }
-  .header-image {
-    width: 19%;
-  }
-  /* Typography */
-  .hero-title {
-    font-size: 3.65rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 2.4rem;
-  }
-}
-
-/* Screen width: 1080px*/
-@media (max-width: 67.5em) {
-  .body-container {
-    padding: 1.25rem;
-  }
-  .header-image {
-    width: 17.5%;
-  }
-  .header-img-2 {
-    margin-bottom: -2px;
-  }
-  .main-socials-container {
-    padding: 0 2rem;
-  }
-  /* Typography */
-  .hero-title {
-    font-size: 3.6rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 2.35rem;
-  }
-}
-
-/* Screen width: 1024px*/
-@media (max-width: 64em) {
-  .header-image {
-    width: 17%;
-  }
-  /* Typography */
-  .hero-title {
-    font-size: 3.55rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 2.3rem;
-  }
-}
-
-/* Screen width: 960px*/
-@media (max-width: 60em) {
-  .header {
-    min-height: auto;
-  }
-  .header-hero {
+  .article-contact-details {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -754,504 +224,36 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    gap: 1rem;
-    margin-top: -0.35rem;
-    padding: 2rem;
   }
-  .header-image {
-    width: 16%;
-  }
-  /* Typography */
-  .hero-title {
-    font-size: 3.5rem;
-    line-height: 1;
-    letter-spacing: 0.025rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 2.25rem;
-  }
-  .hero-subtitle,
-  .socials-subtitle,
-  .referral-materials-paragraph {
+  .article-contact-title {
     font-size: 1rem;
-    line-height: 1.5;
-    letter-spacing: 0.025rem;
-  }
-  .hero-subtitle {
-    max-width: 100%;
-  }
-  .referral-materials-paragraph {
-    max-width: 70ch;
-  }
-  .socials-subtitle {
     text-align: center;
-  }
-  .header-cta-buttons-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .header-cta-buttons-1,
-  .header-cta-buttons-2 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  /* Socials */
-  .socials-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    gap: 1rem;
-    padding: 2rem;
-  }
-  /* Carousel */
-  .faq-container-carousel {
-    max-width: 38rem;
-    padding: 0.6175rem;
-  }
-  .carousel-buttons-wrapper {
-    max-width: 46rem;
-  }
-  .carousel-btn-left {
-    margin-left: 0.65rem;
-  }
-  .carousel-btn-right {
-    margin-right: 0.65rem;
-  }
-}
-
-/* Screen width: 880px*/
-@media (max-width: 55em) {
-  .header-image {
-    width: 12%;
-  }
-  /* Typography */
-  .hero-title {
-    font-size: 3rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 2rem;
-  }
-}
-
-/* Screen width: 750px*/
-@media (max-width: 46.875em) {
-  .body-sections-wrapper {
-    overflow: hidden;
-  }
-  /* Typography */
-  .hero-title {
-    font-size: 2.65rem;
-  }
-  .main-socials-container {
     padding: 0 1rem;
   }
-  .faq-container-carousel {
-    max-width: 43rem;
-    padding: 0.2rem;
-    margin-right: 0;
-    margin-left: -0.2rem;
-    overflow: visible;
-  }
-  .carousel-buttons-wrapper,
-  .carousel-btn-left,
-  .carousel-btn-right {
-    display: none;
-  }
-  .main-referral-materials-container {
-    padding: 0 0.5rem;
-  }
-}
-
-/* Screen width: 720px*/
-@media (max-width: 45em) {
-  .faq-container-carousel {
-    max-width: 40.5rem;
-  }
-}
-
-/* Screen width: 680px*/
-@media (max-width: 42.5em) {
-  .body-sections-wrapper {
-    overflow: hidden;
-  }
-  .main-socials-container {
-    padding: 0 0.75rem;
-  }
-  .faq-container-carousel {
-    max-width: 38.5rem;
-  }
-  .carousel-item {
-    width: 100%;
-    max-width: 16.5rem;
-  }
-  .referral-materials-item {
-    gap: 1rem;
-  }
-  .referral-materials-paragraph {
-    max-width: 100%;
-  }
-}
-
-/* Screen width: 650px*/
-@media (max-width: 40.625em) {
-  .faq-container-carousel {
-    max-width: 36.5rem;
-  }
-}
-
-/* Screen width: 620px*/
-@media (max-width: 38.75em) {
-  .main-socials-container {
-    padding: 0 0.5rem;
-  }
-  .faq-container-carousel {
-    max-width: 34.5rem;
-  }
-  .carousel-item {
-    max-width: 16rem;
-  }
-}
-
-/* Width: 600px */
-@media (max-width: 37.5em) {
-  .body-container {
-    padding: 1rem;
-  }
-  .body-sections-wrapper {
-    gap: 0.5rem;
-  }
-  .header {
-    border-radius: 8px;
-  }
-  .header-image {
-    display: none;
-  }
-  .header-hero {
-    padding: 1.5rem;
-  }
-  .header-cta-buttons-wrapper {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .article-contact-buttons {
     gap: 0.75rem;
-  }
-  .header-cta-buttons-1 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    gap: 0.75rem;
-  }
-  .header-cta-buttons-2 {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    gap: 0.75rem;
-  }
-  .cta-button {
-    max-width: 3rem;
-    border-radius: 8px;
-  }
-  .cta-btn-text {
-    display: none;
-  }
-  .socials-wrapper {
-    padding: 1.5rem;
-    border-radius: 8px;
-  }
-  .container-item-text {
-    padding-bottom: 1rem;
-  }
-  .container-item-text:first-child {
-    padding-bottom: 0.5rem;
-  }
-  /* Socials */
-  .social-icon {
-    max-width: 2.75rem;
-    max-height: 2.75rem;
-    border-radius: 8px;
-  }
-  .social-icons-wrapper {
-    gap: 0.75rem;
-  }
-  .main-faq-container {
-    margin: 2.5rem 0 0 0;
-  }
-  /*Typography */
-  .hero-title {
-    font-size: 2.5rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 1.75rem;
-    line-height: 1.5;
-  }
-  .socials-title,
-  .faq-title {
-    text-align: center;
-  }
-  .faq-subtitle {
-    font-size: 1.2rem;
-    max-width: 100%;
-    line-height: 1.15;
-  }
-  .faq-paragraph {
-    font-size: 1rem;
-    line-height: 1.25;
-  }
-  .referral-materials-subtitle {
-    font-size: 1.2rem;
-  }
-  /* Carousel */
-  .faq-container-carousel {
-    max-width: 32.5rem;
-  }
-  .carousel-item {
-    width: 100%;
-    min-height: 13rem;
-    min-width: 15rem;
-    gap: 0.5rem;
-  }
-  .carousel-item-text {
-    min-width: 70%;
-    max-width: 10rem;
-    padding: 0.75rem 0 0.75rem 0.75rem;
-  }
-  .carousel-item-image {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    min-width: 30%;
-    padding: 0;
-    margin: 0;
-  }
-  .carousel-item-image img {
-    width: 100%;
-    max-width: 3.5rem;
-    padding-right: 0.25rem;
-  }
-  .referral-materials-item {
-    padding: 1.25rem;
-  }
-  .item-img-positioning {
-    position: relative;
-    top: auto;
-    right: auto;
-  }
-}
-
-/* Width: 560px */
-@media (max-width: 35em) {
-  .faq-container-carousel {
-    max-width: 31rem;
-  }
-}
-
-/* Width: 530px */
-@media (max-width: 33.125em) {
-  /*Typography */
-  .hero-title {
-    font-size: 2.25rem;
-  }
-  .faq-container-carousel {
-    max-width: 29.125rem;
-  }
-}
-
-/* Width: 500px */
-@media (max-width: 31.25em) {
-  .faq-container-carousel {
-    max-width: 27.25rem;
-  }
-}
-
-/* Width: 470px */
-@media (max-width: 29.375em) {
-  .header-hero {
-    padding: 1.25rem;
-  }
-  /*Typography */
-  .hero-title {
-    font-size: 2rem;
-  }
-  .socials-wrapper {
-    padding: 1.25rem;
-  }
-  .faq-container-carousel {
-    max-width: 25.375rem;
-  }
-}
-
-/* Width: 440px */
-@media (max-width: 27.5em) {
-  /*Typography */
-  .hero-title {
-    font-size: 1.75rem;
-  }
-  .socials-title,
-  .faq-title,
-  .referral-materials-title {
-    font-size: 1.3rem;
-    line-height: 1.3;
-    padding: 0 1.5rem;
-  }
-  .faq-container-carousel {
-    max-width: 23rem;
   }
 }
 
 /* Width: 400px */
 @media (max-width: 25em) {
   .body-container {
-    padding: 0.85rem;
-  }
-  .faq-container-carousel {
-    max-width: 21.5rem;
-  }
-  /* Socials */
-  .social-icons-wrapper {
-    gap: 0.5rem;
-  }
-  .social-icon {
-    max-width: 2.1rem;
-    max-height: 2.1rem;
-  }
-  .social-icon img {
-    max-width: 1.85rem;
-    max-height: 1.85rem;
-    padding: 0.25rem;
+    padding: 15px;
   }
 }
 
 /* Width: 370px */
 @media (max-width: 23.125em) {
-  .faq-container-carousel {
-    max-width: 19.625rem;
+  .title {
+    font-size: 1.25rem;
   }
-}
-
-/* Width: 340px */
-@media (max-width: 21.25em) {
-  .faq-container-carousel {
-    max-width: 18.25rem;
+  .article-contact-title {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
   }
-}
-
-/* Width: 320px */
-@media (max-width: 20em) {
-  .body-sections-wrapper {
-    gap: 0;
-  }
-  .header-hero {
-    padding: 1rem;
-  }
-  .header-cta-buttons-wrapper {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .header-cta-buttons-1 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .header-cta-buttons-2 {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .cta-button {
-    max-width: 3rem;
-  }
-  .cta-btn-text {
-    display: none;
-  }
-  .socials-wrapper {
-    padding: 1rem;
-  }
-  .container-item-text {
-    padding-bottom: 0.5rem;
-  }
-  .container-item-text:first-child {
-    padding-bottom: 0;
-  }
-  .main-faq-container {
-    margin: 2rem 0 0 0;
-  }
-  .socials-title,
-  .faq-title {
-    text-align: center;
-  }
-  .faq-subtitle {
-    font-size: 1rem;
-  }
-  .faq-paragraph {
-    font-size: 0.875rem;
-  }
-  .referral-materials-subtitle {
-    font-size: 1rem;
-  }
-  /* Carousel */
-  .faq-container-carousel {
-    max-width: 17.75rem;
-    margin: 1rem 0 1rem 0.1rem;
-  }
-  .carousel-item {
+  .btn-chat {
     width: 100%;
-    min-height: 10rem;
-    min-width: 15rem;
-    gap: 0.5rem;
-  }
-  .carousel-item-text {
-    min-width: 70%;
-    max-width: 10rem;
-    padding: 0.5rem 0 0.5rem 0.5rem;
-  }
-  .carousel-item-image {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    min-width: 30%;
-  }
-  .carousel-item-image img {
-    width: 100%;
-    max-width: 3.5rem;
-  }
-  .referral-materials-item {
-    padding: 1rem;
+    max-width: 12rem;
+    padding: 15px 22px 15px 22px;
   }
 }
